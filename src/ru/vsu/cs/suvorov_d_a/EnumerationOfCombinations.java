@@ -9,7 +9,7 @@ public class EnumerationOfCombinations {
             return 1;
         }
         int sum = 0;
-        for(int i = 1, s = 1; (3*i-1)*i/2 <= N; ++i) {
+        for (int i = 1, s = 1; (3*i-1)*i/2 <= N; ++i) {
             int l = (3*i+1)*i/2;
             int m = (3*i-1)*i/2;
             sum += s*(calculateRecursion(N-l)+calculateRecursion(N-m));
