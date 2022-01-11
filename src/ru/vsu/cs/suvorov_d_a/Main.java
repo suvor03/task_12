@@ -14,7 +14,7 @@ class Main {
         System.out.println("Enter the natural number 'N': ");
         int value = scanner.nextInt();
 
-        if(value<=0) {
+        if (value<=0) {
             System.out.println("Error. Natural number can be only more than 0");
             System.exit(0);
         }
